@@ -1,8 +1,8 @@
 import React from "react";
 
 
-function TestComponent(){
-    return <h1> hello from component </h1> ; 
+function TestComponent(props){
+    return <h1> hello {props.name} </h1> ; 
 }
 
 export default TestComponent; 

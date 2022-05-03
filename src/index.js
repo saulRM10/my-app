@@ -11,7 +11,7 @@ root.render(
   // <React.StrictMode>
     // <App />
   // </React.StrictMode>
-  <TestComponent /> 
+  <TestComponent name="saul" /> 
   
 );
 
