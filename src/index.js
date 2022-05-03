@@ -6,12 +6,12 @@ import reportWebVitals from './reportWebVitals';
 
 // import new component 
 import TestComponent from './components/text';
+import FormComp from './components/form';
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
    <div>
-    
-   {/* <App /> */}
-  
+   <FormComp test="test" /> 
   <TestComponent name="saul" />
    </div>
   
