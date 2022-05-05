@@ -7,11 +7,11 @@ import reportWebVitals from './reportWebVitals';
 // import new component 
 import TestComponent from './components/text';
 import FormComp from './components/form';
-
+import FormInput from './components/formInput';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
    <div>
-   <FormComp test="test" /> 
+   <FormInput /> 
   <TestComponent name="saul" />
    </div>
   
