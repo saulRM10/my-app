@@ -7,9 +7,13 @@ function Counter(){
     // count => reactive data /or state, (0) = default value 
     // setCount => setter function
 
-    // useEffect
-    // component lifecycle: mounting(initialized, happens once), updating(state is updated, can happen multiple time), unmounting(destroyed)
-    // is a function that uses a function (you) I decide, it runs when mounted or when state changes
+    // useEffect: is a function that uses a function (you) I decide, it runs when mounted or when state changes
+    // component lifecycle: 
+    // - initialization: when component is constructed
+    // -  mounting: sate of rendering the returned JSX 
+    // - updating(state is updated, can happen multiple time
+    // - unmounting: component is destroyed and removed from page
+   
     useEffect(()=> {
         document.title = ' you clicked ${count} times '; 
 
