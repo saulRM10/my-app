@@ -8,11 +8,17 @@ import reportWebVitals from './reportWebVitals';
 import TestComponent from './components/text';
 import FormComp from './components/form';
 import FormInput from './components/formInput';
+
+// import component with hook 
+import Counter from './components/counter';
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
    <div>
-   <FormInput /> 
-  <TestComponent name="saul" />
+   {/* <FormInput /> 
+  <TestComponent name="saul" /> */}
+
+   <Counter />
    </div>
   
 );
